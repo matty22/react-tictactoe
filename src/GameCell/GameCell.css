@@ -1,0 +1,19 @@
+
+.gameCell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-collapse: collapse;
+  font-size: 32px;
+}
+
+.computerOCell:before {
+  content: 'O';
+}
+
+.computerXCell:before {
+  content: 'X';
+}
